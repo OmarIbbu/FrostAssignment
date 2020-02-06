@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB626D9523E98BB6002FAF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626D9423E98BB6002FAF33 /* AppDelegate.swift */; };
+		AB626D9723E98BB6002FAF33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626D9623E98BB6002FAF33 /* SceneDelegate.swift */; };
+		AB626D9C23E98BB6002FAF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB626D9A23E98BB6002FAF33 /* Main.storyboard */; };
+		AB626D9F23E98BB6002FAF33 /* FrostAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB626D9D23E98BB6002FAF33 /* FrostAssignment.xcdatamodeld */; };
+		AB626DA123E98BB9002FAF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB626DA023E98BB9002FAF33 /* Assets.xcassets */; };
+		AB626DA423E98BB9002FAF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB626DA223E98BB9002FAF33 /* LaunchScreen.storyboard */; };
+		AB626DAF23E98BBA002FAF33 /* FrostAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626DAE23E98BBA002FAF33 /* FrostAssignmentTests.swift */; };
+		AB626DBA23E98BBA002FAF33 /* FrostAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626DB923E98BBA002FAF33 /* FrostAssignmentUITests.swift */; };
+		AB626DCD23E9985C002FAF33 /* CustomTableCellView1.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB626DCC23E9985C002FAF33 /* CustomTableCellView1.xib */; };
+		AB626DCF23E99870002FAF33 /* CustomTableCellView2.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB626DCE23E99870002FAF33 /* CustomTableCellView2.xib */; };
+		AB626DD123E99896002FAF33 /* CustomTableViewCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626DD023E99896002FAF33 /* CustomTableViewCell1.swift */; };
+		AB626DD323E998A9002FAF33 /* CustomTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626DD223E998A9002FAF33 /* CustomTableViewCell2.swift */; };
+		AB626DD523E99A98002FAF33 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626DD423E99A98002FAF33 /* DataModel.swift */; };
+		AB626DD723E99E42002FAF33 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626DD623E99E42002FAF33 /* HomeViewController.swift */; };
+		AB626DD923E99F64002FAF33 /* SingletonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626DD823E99F64002FAF33 /* SingletonManager.swift */; };
+		AB626DDB23E9A48C002FAF33 /* CreateNotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626DDA23E9A48C002FAF33 /* CreateNotesViewController.swift */; };
+		AB626E1923EB0CFF002FAF33 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626E1823EB0CFE002FAF33 /* FilterViewController.swift */; };
+		AB626E1D23EB18C9002FAF33 /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = AB626E1C23EB18C9002FAF33 /* UIBarButtonItem+Badge.m */; };
+		AB626E1F23EB52B0002FAF33 /* CompareDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626E1E23EB52B0002FAF33 /* CompareDate.swift */; };
+		AB626E2123EBE611002FAF33 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB626E2023EBE611002FAF33 /* File.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB626DAB23E98BBA002FAF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB626D8923E98BB6002FAF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB626D9023E98BB6002FAF33;
+			remoteInfo = FrostAssignment;
+		};
+		AB626DB623E98BBA002FAF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB626D8923E98BB6002FAF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB626D9023E98BB6002FAF33;
+			remoteInfo = FrostAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB626D9123E98BB6002FAF33 /* FrostAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrostAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB626D9423E98BB6002FAF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB626D9623E98BB6002FAF33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB626D9B23E98BB6002FAF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB626D9E23E98BB6002FAF33 /* FrostAssignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FrostAssignment.xcdatamodel; sourceTree = "<group>"; };
+		AB626DA023E98BB9002FAF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB626DA323E98BB9002FAF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB626DA523E98BB9002FAF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB626DAA23E98BBA002FAF33 /* FrostAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrostAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB626DAE23E98BBA002FAF33 /* FrostAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostAssignmentTests.swift; sourceTree = "<group>"; };
+		AB626DB023E98BBA002FAF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB626DB523E98BBA002FAF33 /* FrostAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrostAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB626DB923E98BBA002FAF33 /* FrostAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrostAssignmentUITests.swift; sourceTree = "<group>"; };
+		AB626DBB23E98BBA002FAF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB626DCC23E9985C002FAF33 /* CustomTableCellView1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableCellView1.xib; sourceTree = "<group>"; };
+		AB626DCE23E99870002FAF33 /* CustomTableCellView2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableCellView2.xib; sourceTree = "<group>"; };
+		AB626DD023E99896002FAF33 /* CustomTableViewCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell1.swift; sourceTree = "<group>"; };
+		AB626DD223E998A9002FAF33 /* CustomTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell2.swift; sourceTree = "<group>"; };
+		AB626DD423E99A98002FAF33 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		AB626DD623E99E42002FAF33 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AB626DD823E99F64002FAF33 /* SingletonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonManager.swift; sourceTree = "<group>"; };
+		AB626DDA23E9A48C002FAF33 /* CreateNotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNotesViewController.swift; sourceTree = "<group>"; };
+		AB626E1823EB0CFE002FAF33 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		AB626E1A23EB18C6002FAF33 /* FrostAssignment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FrostAssignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB626E1B23EB18C9002FAF33 /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		AB626E1C23EB18C9002FAF33 /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		AB626E1E23EB52B0002FAF33 /* CompareDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompareDate.swift; sourceTree = "<group>"; };
+		AB626E2023EBE611002FAF33 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB626D8E23E98BB6002FAF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB626DA723E98BBA002FAF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB626DB223E98BBA002FAF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB626D8823E98BB6002FAF33 = {
+			isa = PBXGroup;
+			children = (
+				AB626D9323E98BB6002FAF33 /* FrostAssignment */,
+				AB626DAD23E98BBA002FAF33 /* FrostAssignmentTests */,
+				AB626DB823E98BBA002FAF33 /* FrostAssignmentUITests */,
+				AB626D9223E98BB6002FAF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB626D9223E98BB6002FAF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB626D9123E98BB6002FAF33 /* FrostAssignment.app */,
+				AB626DAA23E98BBA002FAF33 /* FrostAssignmentTests.xctest */,
+				AB626DB523E98BBA002FAF33 /* FrostAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB626D9323E98BB6002FAF33 /* FrostAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				AB626DC923E996B8002FAF33 /* Controller */,
+				AB626DC823E996B2002FAF33 /* View */,
+				AB626DC723E996AB002FAF33 /* Model */,
+				AB626D9423E98BB6002FAF33 /* AppDelegate.swift */,
+				AB626D9623E98BB6002FAF33 /* SceneDelegate.swift */,
+				AB626DA023E98BB9002FAF33 /* Assets.xcassets */,
+				AB626DA223E98BB9002FAF33 /* LaunchScreen.storyboard */,
+				AB626DA523E98BB9002FAF33 /* Info.plist */,
+				AB626D9D23E98BB6002FAF33 /* FrostAssignment.xcdatamodeld */,
+			);
+			path = FrostAssignment;
+			sourceTree = "<group>";
+		};
+		AB626DAD23E98BBA002FAF33 /* FrostAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB626DAE23E98BBA002FAF33 /* FrostAssignmentTests.swift */,
+				AB626DB023E98BBA002FAF33 /* Info.plist */,
+			);
+			path = FrostAssignmentTests;
+			sourceTree = "<group>";
+		};
+		AB626DB823E98BBA002FAF33 /* FrostAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB626DB923E98BBA002FAF33 /* FrostAssignmentUITests.swift */,
+				AB626DBB23E98BBA002FAF33 /* Info.plist */,
+			);
+			path = FrostAssignmentUITests;
+			sourceTree = "<group>";
+		};
+		AB626DC723E996AB002FAF33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB626E1B23EB18C9002FAF33 /* UIBarButtonItem+Badge.h */,
+				AB626E1C23EB18C9002FAF33 /* UIBarButtonItem+Badge.m */,
+				AB626DD023E99896002FAF33 /* CustomTableViewCell1.swift */,
+				AB626DD223E998A9002FAF33 /* CustomTableViewCell2.swift */,
+				AB626DD423E99A98002FAF33 /* DataModel.swift */,
+				AB626E2023EBE611002FAF33 /* File.swift */,
+				AB626DD823E99F64002FAF33 /* SingletonManager.swift */,
+				AB626E1A23EB18C6002FAF33 /* FrostAssignment-Bridging-Header.h */,
+				AB626E1E23EB52B0002FAF33 /* CompareDate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB626DC823E996B2002FAF33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB626D9A23E98BB6002FAF33 /* Main.storyboard */,
+				AB626DCC23E9985C002FAF33 /* CustomTableCellView1.xib */,
+				AB626DCE23E99870002FAF33 /* CustomTableCellView2.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB626DC923E996B8002FAF33 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AB626DD623E99E42002FAF33 /* HomeViewController.swift */,
+				AB626DDA23E9A48C002FAF33 /* CreateNotesViewController.swift */,
+				AB626E1823EB0CFE002FAF33 /* FilterViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB626D9023E98BB6002FAF33 /* FrostAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB626DBE23E98BBA002FAF33 /* Build configuration list for PBXNativeTarget "FrostAssignment" */;
+			buildPhases = (
+				AB626D8D23E98BB6002FAF33 /* Sources */,
+				AB626D8E23E98BB6002FAF33 /* Frameworks */,
+				AB626D8F23E98BB6002FAF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FrostAssignment;
+			productName = FrostAssignment;
+			productReference = AB626D9123E98BB6002FAF33 /* FrostAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB626DA923E98BBA002FAF33 /* FrostAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB626DC123E98BBA002FAF33 /* Build configuration list for PBXNativeTarget "FrostAssignmentTests" */;
+			buildPhases = (
+				AB626DA623E98BBA002FAF33 /* Sources */,
+				AB626DA723E98BBA002FAF33 /* Frameworks */,
+				AB626DA823E98BBA002FAF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB626DAC23E98BBA002FAF33 /* PBXTargetDependency */,
+			);
+			name = FrostAssignmentTests;
+			productName = FrostAssignmentTests;
+			productReference = AB626DAA23E98BBA002FAF33 /* FrostAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB626DB423E98BBA002FAF33 /* FrostAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB626DC423E98BBA002FAF33 /* Build configuration list for PBXNativeTarget "FrostAssignmentUITests" */;
+			buildPhases = (
+				AB626DB123E98BBA002FAF33 /* Sources */,
+				AB626DB223E98BBA002FAF33 /* Frameworks */,
+				AB626DB323E98BBA002FAF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB626DB723E98BBA002FAF33 /* PBXTargetDependency */,
+			);
+			name = FrostAssignmentUITests;
+			productName = FrostAssignmentUITests;
+			productReference = AB626DB523E98BBA002FAF33 /* FrostAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB626D8923E98BB6002FAF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Marmeto Developer ";
+				TargetAttributes = {
+					AB626D9023E98BB6002FAF33 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+					AB626DA923E98BBA002FAF33 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = AB626D9023E98BB6002FAF33;
+					};
+					AB626DB423E98BBA002FAF33 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = AB626D9023E98BB6002FAF33;
+					};
+				};
+			};
+			buildConfigurationList = AB626D8C23E98BB6002FAF33 /* Build configuration list for PBXProject "FrostAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB626D8823E98BB6002FAF33;
+			productRefGroup = AB626D9223E98BB6002FAF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB626D9023E98BB6002FAF33 /* FrostAssignment */,
+				AB626DA923E98BBA002FAF33 /* FrostAssignmentTests */,
+				AB626DB423E98BBA002FAF33 /* FrostAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB626D8F23E98BB6002FAF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB626DCD23E9985C002FAF33 /* CustomTableCellView1.xib in Resources */,
+				AB626DA423E98BB9002FAF33 /* LaunchScreen.storyboard in Resources */,
+				AB626DCF23E99870002FAF33 /* CustomTableCellView2.xib in Resources */,
+				AB626DA123E98BB9002FAF33 /* Assets.xcassets in Resources */,
+				AB626D9C23E98BB6002FAF33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB626DA823E98BBA002FAF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB626DB323E98BBA002FAF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB626D8D23E98BB6002FAF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB626DD323E998A9002FAF33 /* CustomTableViewCell2.swift in Sources */,
+				AB626DD123E99896002FAF33 /* CustomTableViewCell1.swift in Sources */,
+				AB626D9523E98BB6002FAF33 /* AppDelegate.swift in Sources */,
+				AB626D9723E98BB6002FAF33 /* SceneDelegate.swift in Sources */,
+				AB626E1923EB0CFF002FAF33 /* FilterViewController.swift in Sources */,
+				AB626E1D23EB18C9002FAF33 /* UIBarButtonItem+Badge.m in Sources */,
+				AB626DD923E99F64002FAF33 /* SingletonManager.swift in Sources */,
+				AB626DD723E99E42002FAF33 /* HomeViewController.swift in Sources */,
+				AB626E1F23EB52B0002FAF33 /* CompareDate.swift in Sources */,
+				AB626DD523E99A98002FAF33 /* DataModel.swift in Sources */,
+				AB626E2123EBE611002FAF33 /* File.swift in Sources */,
+				AB626DDB23E9A48C002FAF33 /* CreateNotesViewController.swift in Sources */,
+				AB626D9F23E98BB6002FAF33 /* FrostAssignment.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB626DA623E98BBA002FAF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB626DAF23E98BBA002FAF33 /* FrostAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB626DB123E98BBA002FAF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB626DBA23E98BBA002FAF33 /* FrostAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB626DAC23E98BBA002FAF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB626D9023E98BB6002FAF33 /* FrostAssignment */;
+			targetProxy = AB626DAB23E98BBA002FAF33 /* PBXContainerItemProxy */;
+		};
+		AB626DB723E98BBA002FAF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB626D9023E98BB6002FAF33 /* FrostAssignment */;
+			targetProxy = AB626DB623E98BBA002FAF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB626D9A23E98BB6002FAF33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB626D9B23E98BB6002FAF33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB626DA223E98BB9002FAF33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB626DA323E98BB9002FAF33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB626DBC23E98BBA002FAF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB626DBD23E98BBA002FAF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB626DBF23E98BBA002FAF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R89J92SL8;
+				INFOPLIST_FILE = FrostAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marmeto.FrostAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FrostAssignment/Model/FrostAssignment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB626DC023E98BBA002FAF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R89J92SL8;
+				INFOPLIST_FILE = FrostAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marmeto.FrostAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FrostAssignment/Model/FrostAssignment-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB626DC223E98BBA002FAF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R89J92SL8;
+				INFOPLIST_FILE = FrostAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marmeto.FrostAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrostAssignment.app/FrostAssignment";
+			};
+			name = Debug;
+		};
+		AB626DC323E98BBA002FAF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R89J92SL8;
+				INFOPLIST_FILE = FrostAssignmentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marmeto.FrostAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrostAssignment.app/FrostAssignment";
+			};
+			name = Release;
+		};
+		AB626DC523E98BBA002FAF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R89J92SL8;
+				INFOPLIST_FILE = FrostAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marmeto.FrostAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrostAssignment;
+			};
+			name = Debug;
+		};
+		AB626DC623E98BBA002FAF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R89J92SL8;
+				INFOPLIST_FILE = FrostAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marmeto.FrostAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FrostAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB626D8C23E98BB6002FAF33 /* Build configuration list for PBXProject "FrostAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB626DBC23E98BBA002FAF33 /* Debug */,
+				AB626DBD23E98BBA002FAF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB626DBE23E98BBA002FAF33 /* Build configuration list for PBXNativeTarget "FrostAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB626DBF23E98BBA002FAF33 /* Debug */,
+				AB626DC023E98BBA002FAF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB626DC123E98BBA002FAF33 /* Build configuration list for PBXNativeTarget "FrostAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB626DC223E98BBA002FAF33 /* Debug */,
+				AB626DC323E98BBA002FAF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB626DC423E98BBA002FAF33 /* Build configuration list for PBXNativeTarget "FrostAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB626DC523E98BBA002FAF33 /* Debug */,
+				AB626DC623E98BBA002FAF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB626D9D23E98BB6002FAF33 /* FrostAssignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB626D9E23E98BB6002FAF33 /* FrostAssignment.xcdatamodel */,
+			);
+			currentVersion = AB626D9E23E98BB6002FAF33 /* FrostAssignment.xcdatamodel */;
+			path = FrostAssignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AB626D8923E98BB6002FAF33 /* Project object */;
+}
